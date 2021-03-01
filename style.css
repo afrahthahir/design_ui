@@ -1,0 +1,75 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: ubuntu, "san-serif";
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("img/sofa.jpg");
+
+  min-height: 540px;
+
+  /* Center and scale the image nicely */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+
+.container {
+  position: absolute;
+  right: 130px;
+  width: 80%;
+}
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #1a212b;
+  height: 60px;
+}
+#nav-mobile {
+  list-style-type: none;
+  float: right;
+  display: flex;
+}
+li a {
+  padding-right: 25px;
+}
+ul a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.active {
+  color: white;
+  text-decoration: none;
+  padding-right: 50px;
+  padding-left: 5px;
+  background-color: #30323e;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 30px;
+}
+#pictures li {
+  list-style-type: none;
+  display: flex;
+}
+#first {
+  padding-left: 20px;
+}
+#sec {
+  padding-left: 140px;
+}
+#third {
+  padding-left: 100px;
+}
